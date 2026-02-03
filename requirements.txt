@@ -1,0 +1,20 @@
+# Core framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Async HTTP client for callbacks
+httpx==0.26.0
+
+# Database
+aiosqlite==0.19.0
+
+# Validation & settings
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Load testing
+aiohttp==3.9.1
+
+# Dev/testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
